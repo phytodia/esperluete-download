@@ -5,6 +5,47 @@
    768-480     - tablet
    480-less    - phone landscape & smaller
 --------------------------------------------*/
+body { padding: 0; margin: 0;
+  font-family: "Inter";
+}
+.inside {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-bottom: 2em;
+  padding: 2em 0;
+}
+header .logo {
+  filter: invert(1);
+}
+header .inside {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background-color: #A8B197;
+  color: white;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px 25px;
+  text-decoration: none;
+}
+.card {
+  width: 25%;
+}
+.card img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
 @media all and (min-width: 1024px) {
 
 }
